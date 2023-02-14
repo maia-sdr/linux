@@ -49,7 +49,7 @@
 
                 maia_sdr_recording: maia_sdr_recording@01000000 {
                         no-map;
-                        reg = <0x01000000 0x19000000>; // 0x19f00000
+                        reg = <0x01000000 0x19000000>;
                         label = "maia_sdr_recording";
                 };
         };
