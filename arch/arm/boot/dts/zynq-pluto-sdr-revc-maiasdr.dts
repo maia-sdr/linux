@@ -8,3 +8,9 @@
 /dts-v1/;
 #include "zynq-pluto-sdr-revc.dts"
 #include "zynq-pluto-sdr-maiasdr.dtsi"
+
+/* Delete PL AXI Quad SPI, which only appears in the Rev. C Device Tree (the AXI
+ SPI isn't present in the Maia SDR FPGA design). */
+&amba {
+        /delete-node/ spi@7C430000;
+};
