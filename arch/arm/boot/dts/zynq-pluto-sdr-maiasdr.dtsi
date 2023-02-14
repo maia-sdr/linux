@@ -34,8 +34,6 @@
 };
 
 / {
-        model = "Analog Devices PlutoSDR Rev.B (Z7010/AD9363) - Maia SDR";
-
         reserved-memory {
                 #address-cells = <1>;
                 #size-cells = <1>;
